@@ -1,0 +1,11 @@
+.backdrop{
+    width: 100%;
+    /* its 100 for every view port */
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 100;
+    /* when you scroll it doesnt move, stays inside of the view port */
+    position: fixed;
+    top: 0;
+    left: 0;
+}
