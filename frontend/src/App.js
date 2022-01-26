@@ -28,7 +28,7 @@ function App() {
   <Router>
         
         {/* Navbar */}
-        <Navbar click={()=> setSideToggle(true)} />
+       
         {/* SideDrawer */}
         <SideDrawer show={sideToggle} click={() => setSideToggle(false)} />
 
@@ -36,7 +36,7 @@ function App() {
         <Backdrop show={sideToggle} click={() => setSideToggle(false)} />
   
          <Hero/>
-        
+         <Navbar click={()=> setSideToggle(true)} />
        
 
         <main>

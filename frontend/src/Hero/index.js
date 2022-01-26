@@ -19,7 +19,7 @@ const toggle = () => {
                <HeroItems>
                <HeroH1>Best Piano WorkStations</HeroH1>
                <HeroP>We’re looking at the best keyboard workstation available in 2021. </HeroP>
-               <HeroBtn>Get yours now</HeroBtn>
+               
                </HeroItems>
            </HeroContent>
 
